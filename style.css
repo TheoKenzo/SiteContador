@@ -25,12 +25,32 @@ h1{
 }
 
 p{
+    font-size: 120px;
     color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer{
+    color: white;
+}
+
+ul{
+    margin-left: 50px;
 }
 
 .contador{
     width: 300px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+}
+
+.contador button{
+    background: white;
+    color: gray;
+    font-size: 50px;
+    border-radius: 10px;
+    height: 60px;
+    width: 50px;
 }
 
