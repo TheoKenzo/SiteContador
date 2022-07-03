@@ -17,5 +17,3 @@ function moreFun(){
     NumberCount++
     NumberHTML.innerHTML = NumberCount
 }
-
-NumberHTML.innerHTML = NumberCount
