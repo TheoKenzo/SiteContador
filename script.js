@@ -1,4 +1,4 @@
-const NumberHTML = document.querySelector("#number")
+const NumberHTML = document.getElementById("number")
 const Less = document.getElementById("less")
 const More = document.getElementById("more")
 
