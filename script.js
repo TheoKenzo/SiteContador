@@ -8,12 +8,14 @@ Less.addEventListener("click", lessFun)
 
 function lessFun(){
     NumberCount--
+    NumberHTML.innerHTML = NumberCount
 }
 
 More.addEventListener("click", moreFun)
 
 function moreFun(){
     NumberCount++
+    NumberHTML.innerHTML = NumberCount
 }
 
 NumberHTML.innerHTML = NumberCount
