@@ -55,7 +55,6 @@ input{
 
 
 form button{
-
     height: 50px;
     padding: 10px;
     font-family: 'Poppins', sans-serif;
@@ -79,7 +78,7 @@ form button{
     width: 50px;
 }
 
-.contador button:hover{
+button:hover{
     cursor: pointer;
 }
 
