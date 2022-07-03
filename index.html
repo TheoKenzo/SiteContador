@@ -11,9 +11,12 @@
     <main>
         <h1>CONTADOR</h1>
         <div class="contador">
-            <button id="less">-</button>
-            <p id="number">0</p>
-            <button id="more">+</button>
+
+            <button type="button" id="less">-</button>
+
+            <p id="number" onclick="more()">0</p>
+
+            <button type="button" id="more">+</button>
         </div>
         <fieldset>
             <input type="text" placeholder="O que irá contar?" id="content"></input>
@@ -23,6 +26,6 @@
     <footer>
 
     </footer>
-    <script src="./script.js"></script>
+    <script type = "text/javascript" src = "./script.js"></script>
 </body>
 </html>
