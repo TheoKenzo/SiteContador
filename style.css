@@ -38,6 +38,31 @@ ul{
     margin-left: 50px;
 }
 
+form{
+    display: flex;
+    gap:30px;
+    flex-grow: row wrap;
+}
+
+input{
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    padding-left: 15px;
+    outline: 0;
+}
+
+
+form button{
+
+    height: 50px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
 .contador{
     width: 300px;
     display: flex;
@@ -53,4 +78,9 @@ ul{
     height: 60px;
     width: 50px;
 }
+
+.contador button:hover{
+    cursor: pointer;
+}
+
 
