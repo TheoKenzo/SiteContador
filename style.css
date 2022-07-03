@@ -1,3 +1,36 @@
+* {padding:0; margin:0; vertical-align:baseline; list-style:none; border:0;}
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 /*font-family: 'Poppins', sans-serif;*/
+
+body{
+    background: black;
+}
+
+main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 600px;
+    gap: 50px;
+}
+
+h1{
+    font-size: 5em;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    color: white;
+}
+
+.contador{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
