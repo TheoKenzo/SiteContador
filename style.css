@@ -14,7 +14,7 @@ main{
     justify-content: center;
     align-items: center;
     align-content: center;
-    height: 600px;
+    height: 500px;
     gap: 50px;
 }
 
@@ -30,18 +30,17 @@ p{
     font-family: 'Poppins', sans-serif;
 }
 
-footer{
-    color: white;
-}
-
-ul{
-    margin-left: 50px;
+.list{
+    width: 30%;
+    text-align: center;
 }
 
 form{
+    width: 24%;
     display: flex;
     gap:30px;
-    flex-grow: row wrap;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 input{
@@ -62,6 +61,50 @@ form button{
     border-radius: 5px;
 }
 
+button:hover{
+    cursor: pointer;
+}
+
+footer{
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#developers{
+    padding-right: 5%;
+    padding-left: 5%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.dev1{
+    align-self: flex-start;
+    background: #255348;
+    width: 45%;
+    border-radius: 5px;
+}
+
+.dev1 a{
+    color: white;
+    text-decoration: none;
+}
+
+.dev2{
+    color: black;
+    width: 45%;
+    border-radius: 5px;
+    background: white;
+}
+
+.dev2 a{
+    text-decoration: none;
+    color: black;
+}
+
 .contador{
     width: 300px;
     display: flex;
@@ -78,8 +121,42 @@ form button{
     width: 50px;
 }
 
-button:hover{
-    cursor: pointer;
+.pharse{
+    width: 95%;
+    background: #2C2C2E;
+    margin-bottom: 15px;
+    padding: 5% 0;
+    padding-left: 5%;
+    font-size: 20px;
+    text-align: start;
 }
 
+.list{
+    height: 325px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid gray;
+}
 
+.sublist{
+    width: 100%;
+}
+
+.footer-title{
+    width: 200px;
+    border-radius: 10px;
+    font-size: 20px;
+    background: gray;
+    margin: 20px 0;
+}
+
+.submit{
+    width: 90%;
+    border: 2px solid gray;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2px;
+    margin-left: 5%;
+}
