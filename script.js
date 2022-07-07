@@ -1,19 +1,13 @@
 const NumberHTML = document.getElementById("number")
-const Less = document.getElementById("less")
-const More = document.getElementById("more")
 
 let NumberCount = 0
 
-Less.addEventListener("click", lessFun)
-
-function lessFun(){
+function increment(){
     NumberCount--
     NumberHTML.innerHTML = NumberCount
 }
 
-More.addEventListener("click", moreFun)
-
-function moreFun(){
+function decrement(){
     NumberCount++
     NumberHTML.innerHTML = NumberCount
 }
