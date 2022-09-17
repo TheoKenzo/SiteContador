@@ -1,7 +1,24 @@
 # SiteContador
 
-Projeto feito por M4teusAlves, TheoKenzo;
+> Status: Developing ⚠️
 
-Temos o intuito de aplicar o conhecimento e desenvolver um projeto com utilidade para os usuários.
+## Project being develop by M4teusAlves, TheoKenzo;
 
-Link para vizualização do projeto : https://sitecontador.000webhostapp.com
+### We have the objective of develop a project to help with tasks who needs a counter and apply our basic knowledge of html, css and javascript.
+
+### Link to the site of the project : https://sitecontador.000webhostapp.com
+
+## Used Technologies
+
+<table>
+  <tr>
+    <td>HTML</td>
+    <td>CSS</td>
+    <td>Javascript</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>2.1</td>
+    <td>2019</td>
+  </tr>
+</table>
